@@ -30,5 +30,6 @@ font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|le
 ```
 
 Thank you!
+<br /> Learn variable naming convention-> source: https://css-tricks.com/what-do-you-name-color-variables/ 
 <br /> source: https://www.w3schools.com/cssref/default.asp
 <br /> source: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference 
