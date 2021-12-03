@@ -19,7 +19,7 @@ div {
 # Then you can also overwrite it.
 ```CSS
 p {
-  --global-text-color : red; // assigned as color : ? 
+  --global-text-color : red; /* assigned as color : ?  */
 }
 ```
 
