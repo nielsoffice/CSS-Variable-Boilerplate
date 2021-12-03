@@ -1,0 +1,33 @@
+body, label, input, textarea {
+  font-family: Verdana, sans-serif;
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: auto;
+}
+h2 {
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0.7rem;
+}
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0.3rem;
+  letter-spacing: 3px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+p, span {
+  font-size: x-small;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+}
