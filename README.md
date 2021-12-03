@@ -1,5 +1,5 @@
 # CSS-Variable-Boilerplate-
-CSS Variable Boilerplate 
+CSS Variable Boilerplate ready for Webpack and Gulp.
 
 usage: 
 ```CSS
