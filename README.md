@@ -48,9 +48,9 @@ console.log(getValue);
 
 // output: #93e407 or green !
 
-const btnElemen = document.querySelector('.btn-class-name')
+const btnElement = document.querySelector('.btn-class-name')
 
-btnElemen.style.setProperty('--background-color', 'green')
+btnElement.style.setProperty('--background-color', 'green')
 
 ```
 
