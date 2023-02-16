@@ -57,6 +57,7 @@ btnElement.style.setProperty('--background-color', 'green')
 # Google media size Landscape and portrait
 
 ```CSS
+/* Desktop / Largescreen MAX to MIN mobile approach ! */
 @media only screen ... and (max-width: 1368px ) {}
 @media only screen ... and (max-width: 1280px ) {}
 @media only screen ... and (max-width: 1180px ) {}
