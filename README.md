@@ -53,6 +53,39 @@ const btnElement = document.querySelector('.btn-class-name')
 btnElement.style.setProperty('--background-color', 'green')
 
 ```
+<br />
+# Google media size Landscape and portrait
+
+```CSS
+@media only screen (max-width: 1368px ) {}
+@media only screen (max-width: 1280px ) {}
+@media only screen (max-width: 1180px ) {}
+@media only screen (max-width: 1024px ) {}
+@media only screen (max-width: 915px ) {}
+@media only screen (max-width: 896px ) {}
+@media only screen (max-width: 851px ) {}
+@media only screen (max-width: 844px ) {}
+@media only screen (max-width: 820px ) {}
+@media only screen (max-width: 800px ) {}
+@media only screen (max-width: 768px ) {}
+@media only screen (max-width: 740px ) {}
+@media only screen (max-width: 720px ) {}
+@media only screen (max-width: 653px ) {}
+@media only screen (max-width: 600px ) {}
+@media only screen (max-width: 667px ) {}
+@media only screen (max-width: 540px ) {}
+@media only screen (max-width: 414px ) {}
+@media only screen (max-width: 412px ) {}
+@media only screen (max-width: 393px ) {}
+@media only screen (max-width: 390px ) {}
+@media only screen (max-width: 375px ) {}
+@media only screen (max-width: 360px ) {}
+
+/* Usage : */
+/* Check which size are object fit from max size to min size ex. */
+@media only screen and  (min-width: to_size px ) and (max-width: from_size px ) {}
+
+```
 
 
 Thank you!
