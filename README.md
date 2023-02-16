@@ -83,7 +83,7 @@ btnElement.style.setProperty('--background-color', 'green')
 
 /* Usage : */
 /* Check which size are object fit from max size to min size ex. */
-@media only screen and  (min-width: to_size px ) and (max-width: from_size px ) {}
+@media only screen and (min-width: to_size px ) and (max-width: from_size px ) {}
 
 ```
 
