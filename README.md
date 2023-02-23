@@ -242,6 +242,7 @@ div {
 Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 Reference: https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php
 https://www.w3schools.com/css/css_math_functions.asp
+Library: https://animate.style/
 
 ```
 
