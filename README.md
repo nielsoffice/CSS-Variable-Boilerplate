@@ -88,8 +88,9 @@ btnElement.style.setProperty('--background-color', 'green')
 @media only screen and (min-width: to_size px ) and (max-width: from_size px ) {}
 
 ```
-
+<br />
 # CSS GRID 
+
 ```CSS
 data align
 from
@@ -205,6 +206,42 @@ Link:https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
  link: https://developer.mozilla.org/en-US/docs/Web/CSS/place-items
 */
 ------------------------------------------------------
+```
+<br />
+# Animation
+
+```CSS
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;  /* place here : mymove  */
+  /*
+    Properties: 
+    animation-name
+    animation-duration
+    animation-delay
+    animation-iteration-count
+    animation-direction
+    animation-timing-function
+    animation-fill-mode
+    animation
+  */
+}
+
+@keyframes mymove {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+Reference: https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php
+
 ```
 
 Thank you!
