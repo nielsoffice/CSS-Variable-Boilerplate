@@ -89,6 +89,123 @@ btnElement.style.setProperty('--background-color', 'green')
 
 ```
 
+# CSS GRID 
+```CSS
+data align
+from
+1|2 
+3|4
+------------------------------------------------------
+to 
+1|3
+2|4
+
+parentTag {
+ 
+ grid-template-rows: repeat(3, 1fr);
+ grid-auto-flow: column; 
+
+}
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow
+
+------------------------------------------------------
+Name and Grid Area
+{
+display: grid;
+gap: 5px;
+grid-template-areas:
+ "name"
+ "email"
+ "message"
+ "button"
+}
+
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+
+------------------------------------------------------
+Merge and swapt cells
+grid-column-start: // which element tag will selected
+grid-row-start:
+grid-row-end:
+----------------------
+grid-column-end: span 2 // expand the button from col1 to col 2 like full-width
+OR
+grid-column-start: 1
+grid-column-end: 3 // no span version
+
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end
+
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end
+------------------------------------------------------
+justify-content: // Column alignment
+align-content: // row alignment
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+
+------------------------------------------------------
+Self alignment
+
+align-self: start;
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+justify-self: end;
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
+
+------------------------------------------------------
+Container Row
+
+parentTag {
+ 
+  display: grid;
+  grid-template-rows:  auto, 100px auto// depends on your rows from parent Tag
+  // means it have a 3 rows the first got auto height
+  // The second got 100px;
+  // the third one got auto as well.
+}
+grid: 
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+grid-template-rows:
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+gap:
+Link: https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+
+------------------------------------------------------
+Container Alignment
+
+ parentTag {
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto 
+  /*
+    Using repeat() css function 
+    grid-template-columns: repeat(3, auto); // repeat auto 3 times 
+  */
+
+ }
+ 
+  link: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+
+------------------------------------------------------
+Content Alignment
+ 
+ parentTag {
+   justify-items:
+   align-items:
+ }
+
+* Justify-items: 
+Link:https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items
+* align-items:
+Link:https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+
+/*
+ Shorthand: [ justify-items & align-items: ]
+ place-items: 
+ link: https://developer.mozilla.org/en-US/docs/Web/CSS/place-items
+*/
+------------------------------------------------------
+```
 
 Thank you!
 <br /> Learn variable naming convention-> source: https://css-tricks.com/what-do-you-name-color-variables/ 
