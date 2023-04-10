@@ -88,12 +88,12 @@ btnElement.style.setProperty('--background-color', 'green')
 /* Check which size are object fit from max size to min size ex. */
 @media only screen and (min-width: to_size px ) and (max-width: from_size px ) {}
 
-/* Default */
+/* Default | fit for all media screen/font-size*/
 /* Principle of mobile first | font-size: must be maintain from min to max for instance */
-@media only screen and (min-width: 667px ) and (max-width: 768px ) {}
-@media only screen and (min-width: 540px ) and (max-width: 667px ) {}
-@media only screen and (min-width: 481px ) and (max-width: 540px ) {}
-@media only screen and (min-width: 320px ) and (max-width: 480px ) {}
+@media only screen and (min-width: 667px ) and (max-width: 768px ) {} /* 2 col */ 
+@media only screen and (min-width: 541px ) and (max-width: 667px ) {} /* 2 col begin here m to d */ 
+@media only screen and (min-width: 481px ) and (max-width: 540px ) {} /* 1 col */
+@media only screen and (min-width: 320px ) and (max-width: 480px ) {} /* 1 col */
 ```
 <br />
 # CSS GRID 
