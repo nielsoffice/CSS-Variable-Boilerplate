@@ -96,6 +96,15 @@ btnElement.style.setProperty('--background-color', 'green')
 @media only screen and (min-width: 541px ) and (max-width: 600px /*667 instead!*/ ) {} /* 2 col begin here m to d */ 
 @media only screen and (min-width: 481px ) and (max-width: 540px ) {} /* 1 col */
 @media only screen and (min-width: 320px ) and (max-width: 480px ) {} /* 1 col */
+
+/* NOTE! */
+/* 
+Then element or container width must be fit on media assigned, as we have all in one media query above that have capable to handle all media screen in order to fit the font size or typho close to the design mockup on break point the container or specific element width will adjust base on designer media view port assigned untill
+we reach the matches close from the mockup. 
+For instance designer assigned mobile 428px tablet 992px, and 1080px laptop 1200 for large screen.
+instaed of 100% width for sub heading description let adjust the width of container close to the design just for that media requirement 
+then allow our all in one purpose media screen adjust for the rest of media size; from all in one 320 to 480 +++ the container manually adjust for 428px where the typhography will match on given mockup*
+*/
 ```
 <br />
 # CSS GRID 
