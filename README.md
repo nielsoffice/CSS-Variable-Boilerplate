@@ -104,6 +104,7 @@ we reach the matches close from the mockup.
 For instance designer assigned mobile 428px tablet 992px, and 1080px laptop 1200 for large screen.
 instaed of 100% width for sub heading description let adjust the width of container close to the design just for that media requirement 
 then allow our all in one purpose media screen adjust for the rest of media size; from all in one 320 to 480 +++ the container manually adjust for 428px where the typhography will match on given mockup*
+*We cannot change the font-size for consistency but in order to reach the break of typhography we have to adjust the width instead.
 */
 ```
 <br />
