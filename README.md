@@ -77,6 +77,7 @@ btnElement.style.setProperty('--background-color', 'green')
 @media only screen ... and (max-width: 600px ) {}
 @media only screen ... and (max-width: 540px ) {}
 @media only screen ... and (max-width: 480px ) {}
+@media only screen ... and (max-width: 428px ) {}
 @media only screen ... and (max-width: 414px ) {}
 @media only screen ... and (max-width: 412px ) {}
 @media only screen ... and (max-width: 393px ) {}
