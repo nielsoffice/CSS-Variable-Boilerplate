@@ -131,6 +131,18 @@ then allow our all in one purpose media screen adjust for the rest of media size
 	   { jQuery(targetToBringTop).insertAfter(jQuery(targetToBringBottom)); }
 
     });
+    
+    jQuery(window).on('load', function () {
+  	  
+      let doResize = window.screen.availWidth; 
+		 
+      if ( doResize < requireSize ) {
+        jQuery(targetToBringBottom).insertAfter(jQuery(targetToBringTop));
+        jQuery(targetToBringTop).css({ 'margin-top' : "25px" });   
+      }	
+		
+    });
+    
   });
 ```
 <br />
