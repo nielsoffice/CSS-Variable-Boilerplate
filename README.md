@@ -120,14 +120,14 @@ then allow our all in one purpose media screen adjust for the rest of media size
      let targetToBringBottom = '#div_block-1579-379'; 
      let targetToBringTop    = '#div_block-1590-379'; 	 
 
-	   const wSize = ( doResize <= 540 )	? doResize : false;
+	   const wSize = ( doResize < 540 )	? doResize : false;
 
 	   if (window.matchMedia("(max-width: "+wSize+"px)").matches) {
 		  
 		  jQuery(targetToBringBottom).insertAfter(jQuery(targetToBringTop)); 
 		  jQuery(targetToBringBottom).css({ 'margin-top' : "25px" });  
 		  
-	   } else if ( doResize >= 541 ) 
+	   } else if ( doResize >= 540 ) 
 	   { jQuery(targetToBringTop).insertAfter(jQuery(targetToBringBottom)); }
 
     });
