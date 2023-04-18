@@ -108,6 +108,31 @@ then allow our all in one purpose media screen adjust for the rest of media size
 *We cannot change the font-size for consistency but in order to reach the break of typhography we have to adjust the width instead.
 */
 ```
+
+```JS
+/* Switch Element top to bottom at media Query <= 540 */
+ jQuery(() => {
+
+   jQuery(window).on("resize", function(event){
+
+     let doResize = jQuery(this).width();
+
+     let targetToBringBottom = '#div_block-1579-379'; 
+     let targetToBringTop    = '#div_block-1590-379'; 	 
+
+	   const wSize = ( doResize <= 540 )	? doResize : false;
+
+	   if (window.matchMedia("(max-width: "+wSize+"px)").matches) {
+		  
+		  jQuery(targetToBringBottom).insertAfter(jQuery(targetToBringTop)); 
+		  jQuery(targetToBringBottom).css({ 'margin-top' : "25px" });  
+		  
+	   } else if ( doResize >= 541 ) 
+	   { jQuery(targetToBringTop).insertAfter(jQuery(targetToBringBottom)); }
+
+    });
+  });
+```
 <br />
 # CSS GRID 
 
