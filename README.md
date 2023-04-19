@@ -91,7 +91,10 @@ btnElement.style.setProperty('--background-color', 'green')
 @media only screen and (min-width: to_size px ) and (max-width: from_size px ) {}
 
 /* Default | fit for all media screen/font-size*/
-/* Principle of mobile first | font-size: must be maintain from min to max for instance */
+/* Principle of mobile first | font-size: must be maintain from min to max for instance 
+  USE this approach in case the design is NOT sensitive, simply means the design just need to be responsive 
+  no matter how text and paragraph will break!
+*/
 @media only screen and (min-width: 667px ) and (max-width: 768px ) {} /* 2 col */ 
 /* @media only screen and (min-width: 601px ) and (max-width: 667px ) {}  2 col if necessary! */ 
 @media only screen and (min-width: 541px ) and (max-width: 600px /*667 instead!*/ ) {} /* 2 col begin here m to d */ 
@@ -108,8 +111,10 @@ then allow our all in one purpose media screen adjust for the rest of media size
 *We cannot change the font-size for consistency but in order to reach the break of typhography we have to adjust the width instead.
 */
 
-/* Given Break points "AS IS" for layout and prototype */
-
+/* Given Break points "AS IS" for layout and prototype 
+  USE this approach in case the design is SUPER sensitive, simply means the design completely must be follow including 
+  text or paragraph break, heading text break and image or any object located or position NOT just responsive!
+*/
 /* GBP Tablet Landscape and Desktop Portrait */
 @media only screen and (max-width: 1100px ) { ... }
   /* OR */ @media only screen and (max-width: 1280px ) { ... }
