@@ -107,6 +107,48 @@ instaed of 100% width for sub heading description let adjust the width of contai
 then allow our all in one purpose media screen adjust for the rest of media size; from all in one 320 to 480 +++ the container manually adjust for 428px where the typhography will match on given mockup*
 *We cannot change the font-size for consistency but in order to reach the break of typhography we have to adjust the width instead.
 */
+
+/* Given Break points "AS IS" for layout and prototype */
+
+/* GBP Tablet Landscape and Desktop Portrait */
+@media only screen and (max-width: 1100px ) { ... }
+  /* OR */ @media only screen and (max-width: 1280px ) { ... }
+  /* OR */ @media only screen and (max-width: 1080px ) { ... }
+  /* OR */ @media only screen and (max-width: 1024px ) { ... }
+  
+/* GBP Tablet Portrait */
+@media only screen and (max-width: 992px ) { ... }
+  /* OR */ @media only screen and (max-width: 915px ) { ... }
+  /* OR */ @media only screen and (max-width: 880px ) { ... }
+  /* OR */ @media only screen and (max-width: 851px ) { ... }
+  /* OR */ @media only screen and (max-width: 820px ) { ... }
+  /* OR */ @media only screen and (max-width: 780px ) { ... }
+  
+/* GBP Mobile Landscape: */
+@media only screen and (max-width: 768px ) { ... } 
+  /* OR */ @media only screen and (max-width: 600px ) { ... } 
+  /* OR */ @media only screen and (max-width: 667px ) { ... }
+  /* OR */ @media only screen and (max-width: 540px ) { ... }
+
+/* GBP Mobile Portrait: */
+@media only screen and (max-width: 480px ) { ... } 
+  /* OR */ @media only screen and (max-width: 428px ) { ... } 
+  /* OR */ @media only screen and (max-width: 414px ) { ... } 
+  /* OR */ @media only screen and (max-width: 412px ) { ... } 
+@media only screen and (max-width: 375px ) { ... } 
+  /* OR */ @media only screen and (max-width: 360px ) { ... }
+  /* OR */ @media only screen and (max-width: 320px ) { ... }
+
+/* Break points fixing contents " In Between " */
+
+/* Principle of mobile first | font-size: must be maintain from min to max for instance */
+@media only screen and (min-width: 667px ) and (max-width: 768px ) {} /* 2 col */ 
+/* @media only screen and (min-width: 601px ) and (max-width: 667px ) {}  2 col if necessary! */ 
+@media only screen and (min-width: 541px ) and (max-width: 600px /*667 instead!*/ ) {} /* 2 col begin here m to d */ 
+@media only screen and (min-width: 481px ) and (max-width: 540px ) {} /* 1 col */
+@media only screen and (min-width: 320px ) and (max-width: 480px ) {} /* 1 col */
+
+OR >> /* Desktop / Largescreen MAX to MIN mobile approach ! */ [ scroll to top! ]
 ```
 
 ```JS
