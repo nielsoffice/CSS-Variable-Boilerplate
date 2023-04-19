@@ -144,9 +144,10 @@ then allow our all in one purpose media screen adjust for the rest of media size
   /* OR */ @media only screen and (max-width: 360px ) { ... }
   /* OR */ @media only screen and (max-width: 320px ) { ... }
 
-/* Break points fixing contents " In Between " */
-
-/* Principle of mobile first | font-size: must be maintain from min to max for instance */
+/* Break points fixing contents " In Between " 
+   NOTE: Column on this approach is unpredictable case!
+   This how we fix other content while browser is getting resize!
+*/
 @media only screen and (min-width: 667px ) and (max-width: 768px ) {} /* 2 col */ 
 /* @media only screen and (min-width: 601px ) and (max-width: 667px ) {}  2 col if necessary! */ 
 @media only screen and (min-width: 541px ) and (max-width: 600px /*667 instead!*/ ) {} /* 2 col begin here m to d */ 
