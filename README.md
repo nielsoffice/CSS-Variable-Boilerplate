@@ -121,7 +121,7 @@ then allow our all in one purpose media screen adjust for the rest of media size
   /* OR */ @media only screen and (max-width: 1080px ) { ... }
   /* OR */ @media only screen and (max-width: 1024px ) { ... }
  
-  // use min-width instead so from that large screen 1024 to higher 1100 or 1920px ++ 
+  /* use min-width instead so from that large screen 1024 to higher 1100 or 1920px ++ */
   /**OR THIS INSTEAD**/ @media only screen and (min-width: 1024px ) { ... }
  
 /* GBP Tablet Portrait */
