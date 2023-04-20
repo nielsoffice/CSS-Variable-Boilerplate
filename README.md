@@ -313,6 +313,28 @@ Link:https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
  place-items: 
  link: https://developer.mozilla.org/en-US/docs/Web/CSS/place-items
 */
+
+Other Alignment: 
+
+Horizontal Aignment:
+ - Left, Center, Right, Stretch
+Vertical Alignment:
+ - Start, Center, End, Stretch
+Gap
+
+Justify Content:
+ - flex-start, center, flex-end, space-between,
+   space-around
+Wrap:
+ - nowrap, wrap, wrap-reverse
+Algin Content:
+ - flex-start, center, flex-end, space-between,
+   stretch.
+
+Child Control Align Self: 
+ - auto, flex-start, center, flex-end, stretch
+   Order: _ ?, flex-glow: _ ?, flex-shrink: _ ?
+
 ------------------------------------------------------
 ```
 <br />
