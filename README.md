@@ -196,6 +196,9 @@ OR >> /* Desktop / Largescreen MAX to MIN mobile approach ! */ [ scroll to top! 
     
   });
 ```
+
+LINK JS MEDIA QUERY: https://github.com/nielsoffice/mediaQueryJS
+
 <br />
 # CSS GRID 
 
