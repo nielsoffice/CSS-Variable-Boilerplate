@@ -131,7 +131,7 @@ then allow our all in one purpose media screen adjust for the rest of media size
   /* OR */ @media only screen and (max-width: 880px ) { ... }
   /* OR */ @media only screen and (max-width: 851px ) { ... }
   /* OR */ @media only screen and (max-width: 820px ) { ... }
-  /* OR */ @media only screen and (max-width: 780px ) { ... }
+  /* OR */ @media only screen and (max-width: 768px ) { ... }
   
 /* GBP Mobile Landscape: */
 @media only screen and (max-width: 768px ) { ... } 
