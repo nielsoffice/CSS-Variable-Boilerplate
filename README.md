@@ -351,8 +351,8 @@ div {
   height: 100px;
   background: red;
   position: relative;
-  animation-name: example;
-  animation-duration: 4s;  /* place here : mymove  */
+  animation-name:  mymove;
+  animation-duration: 4s; 
   /*
     Properties: 
     animation-name
