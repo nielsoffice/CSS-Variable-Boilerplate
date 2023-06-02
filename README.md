@@ -163,6 +163,7 @@ OR >> /* Desktop / Largescreen MAX to MIN mobile approach ! */ [ scroll to top! 
 
 ```CSS
  /* 
+  * IN BETWEEN MEDIA SCREEN
   * NOTE: when you make responsive from your media query of designer you have to implement the layout from " min " width to " max " width
   * this way, it doesn't matter when the screen get resize becuase it fit and maintain from the layout base on min-with  */
  
