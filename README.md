@@ -161,6 +161,35 @@ then allow our all in one purpose media screen adjust for the rest of media size
 OR >> /* Desktop / Largescreen MAX to MIN mobile approach ! */ [ scroll to top! ]
 ```
 
+```CSS
+ /* 
+  * NOTE: when you make responsive from your media query of designer you have to implement the layout from " min " width to " max " width
+  * this way, it doesn't matter when the screen get resize becuase it fit and maintain from the layout base on min-with  */
+ 
+/* for instance : the designer having custom media query for 834px which is in between of 991 and 768px 
+   so you have to implement the layout from 769px which is min-width to 991px the max-width so when the screen get resize the layout will maintain 
+   it is simiar to mobile to desktop approach */
+
+   @media only screen and (min-width: 768px ) and (max-width: 991px ) {
+    
+    /* resize the screen to 769px then implement the layout */
+    /* so the layput will maintain and works with  [ 820px 834px and 912px ] devices */
+    /* keep in mind that the basis primary Media Query is BETWEEN! it means either 820px or 834px or 912px NOT for 991px */
+    /* NOTE: implement layout will depend how user or QA will check it, but if QA or user will check it for 991 Primary you can do it in 991 or 
+       makes 991px in BETWEEN lik instance : 1024 to 85px it will work for :  */
+      /*
+         @media only screen ... and (max-width: 992px ) {}
+         @media only screen ... and (max-width: 915px ) {}
+         @media only screen ... and (max-width: 896px ) {}
+         
+	 NOTE: it depends on instances you will do this approach if you have a default media query sepcially when you are using page builder... 
+	       Otherwise you will re-configure your default media query then follow the mockup media size then work on it "as is" but this is how you will
+	       recover the situation ! 
+	       for instance you are working with updating the existing website with media query issues you can use this approach very helpful! */
+   }
+
+```
+
 ```JS
 /* Switch Element top to bottom at media Query <= 540 */
  jQuery(() => {
